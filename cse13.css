@@ -10,7 +10,7 @@ header {
 /* Inline Example */ 
 header span { 
   display: inline; 
-  color: red; 
+  color: blue; 
 } 
  
 /* Inline-block Navigation */ 
