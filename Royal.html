@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Royal Spice Restaurant</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f5f2;
+        }
+
+        header {
+            background-color: #8b0000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #8b0000;
+        }
+
+        .menu img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .reservation {
+            text-align: center;
+            margin: 30px;
+        }
+
+        .reservation a {
+            background-color: #8b0000;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .reservation a:hover {
+            background-color: #ff4500;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Royal Spice Restaurant</h1>
+    <p>Delicious Food | Great Ambience | Best Service</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#reservation">Reservation</a>
+</nav>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+
+    <!-- Nested List Menu -->
+    <ul>
+        <li>Starters
+            <ul>
+                <li>Tomato Soup - ₹120</li>
+                <li>Spring Rolls - ₹150</li>
+                <li>Paneer Tikka - ₹220</li>
+            </ul>
+        </li>
+
+        <li>Main Course
+            <ul>
+                <li>Butter Chicken - ₹350</li>
+                <li>Paneer Butter Masala - ₹300</li>
+                <li>Veg Biryani - ₹250</li>
+            </ul>
+        </li>
+
+        <li>Desserts
+            <ul>
+                <li>Gulab Jamun - ₹100</li>
+                <li>Ice Cream - ₹120</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Food Images -->
+    <div class="menu">
+        <h2>Popular Dishes</h2>
+        <img src="https://sp.yimg.com/ib/th/id/OIP.1Hk7Y8wSCq3-UnAtvSSJzQHaJ4?pid=Api&w=148&h=148&c=7&rs=1" alt="Paneer Dish">
+        <img src="https://sp.yimg.com/ib/th/id/OIP.KSOnpYVHzee8SbrwP-CJWgHaHa?pid=Api&w=148&h=148&c=7&rs=1" alt="Biryani">
+        <img src="https://up.yimg.com/ib/th/id/OIP.b-0GSBf_KgtWEckleuyRiAHaHa?pid=Api&rs=1&c=1&qlt=95&w=111&h=111" alt="Dessert">
+    </div>
+</section>
+
+<section id="reservation" class="reservation">
+    <h2>Book a Table</h2>
+    <p>Click below to reserve your table now!</p>
+    <a href="https://www.opentable.com/" target="_blank">Make a Reservation</a>
+</section>
+
+<footer>
+    <p>© 2026 Royal Spice Restaurant | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
